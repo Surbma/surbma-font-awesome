@@ -3,9 +3,8 @@
 /*
 Plugin Name: Surbma - Font Awesome
 Plugin URI: http://surbma.com/
-GitHub Plugin URI: Surbma/surbma-font-awesome
 Description: Font Awesome - The iconic font designed for Bootstrap
-Version: 1.0.0
+Version: 1.0.1
 Author: Surbma
 Author URI: http://surbma.com/
 License: GPL2
