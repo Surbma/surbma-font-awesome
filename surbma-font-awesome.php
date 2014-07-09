@@ -4,14 +4,14 @@
 Plugin Name: Surbma - Font Awesome
 Plugin URI: http://surbma.com/
 Description: Font Awesome - The iconic font designed for Bootstrap
-Version: 1.0.1
+Version: 1.1.0
 Author: Surbma
 Author URI: http://surbma.com/
 License: GPL2
 */
 
 function surbma_font_awesome_enqueue_scripts() {
-	wp_enqueue_style( 'font-awesome', plugins_url( '', __FILE__ ) . '/css/font-awesome.min.css', false, '4.0.3' );
+	wp_enqueue_style( 'font-awesome', plugins_url( '', __FILE__ ) . '/css/font-awesome.min.css', false, '4.1.0' );
 }
 add_action( 'wp_enqueue_scripts', 'surbma_font_awesome_enqueue_scripts' );
 
