@@ -2,16 +2,28 @@
 
 /*
 Plugin Name: Surbma - Font Awesome
-Plugin URI: http://surbma.com/
-Description: Font Awesome 4.2.0 - The iconic font designed for Bootstrap
-Version: 1.2.0
+Plugin URI: http://surbma.com/wordpress-plugins/
+Description: Font Awesome - The iconic font designed for Bootstrap
+
+Version: 2.0.0
+
 Author: Surbma
 Author URI: http://surbma.com/
-License: GPL2
+
+License: GPLv2
+
+Text Domain: surbma-font-awesome
+Domain Path: /languages/
 */
 
+// Localization
+function surbma_font_awesome_init() {
+	load_plugin_textdomain( 'surbma-font-awesome', false, dirname( plugin_basename( __FILE__ ) . '/languages/' ) );
+}
+add_action( 'init', 'surbma_font_awesome_init' );
+
 function surbma_font_awesome_enqueue_scripts() {
-	wp_enqueue_style( 'font-awesome', plugins_url( '', __FILE__ ) . '/css/font-awesome.min.css', false, '4.2.0' );
+	wp_enqueue_style( 'surbma-font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css', false, '4.2.0' );
 }
 add_action( 'wp_enqueue_scripts', 'surbma_font_awesome_enqueue_scripts' );
 
