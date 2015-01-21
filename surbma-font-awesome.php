@@ -5,7 +5,7 @@ Plugin Name: Surbma - Font Awesome
 Plugin URI: http://surbma.com/wordpress-plugins/
 Description: Font Awesome - The iconic font designed for Bootstrap
 
-Version: 2.1.0
+Version: 2.1.1
 
 Author: Surbma
 Author URI: http://surbma.com/
