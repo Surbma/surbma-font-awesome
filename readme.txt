@@ -4,15 +4,15 @@ Donate link: http://surbma.com/
 Tags: font awesome, icon font, icons
 Requires at least: 3.0
 Tested up to: 4.1
-Stable tag: 2.1.1
+Stable tag: 2.2.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Font Awesome - The iconic font designed for Bootstrap
+Font Awesome 4.3 - The iconic font and CSS toolkit
 
 == Description ==
 
-With this plugin you can use the iconic font designed for Bootstrap, the Font Awesome icons. It is loading the css and the font files from the MaxCDN network, which means super fast loading, wherever your visitors are on this planet.
+With this plugin you can use the iconic font and CSS toolkit, the Font Awesome icons. It is loading the css and the font files from the MaxCDN network, which means super fast loading, wherever your visitors are on this planet.
 
 You get also a very useful shortcode to use icons on your site:
 `[fa class="fa-camera-retro"]`
@@ -38,6 +38,11 @@ Here you can see them: <a href="http://fortawesome.github.io/Font-Awesome/icons/
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 2.2.0 =
+
+- Updated to Font Awesome 4.3.
+- Dequeue Font Awesome file if it has already enqueued by another plugin or theme.
 
 = 2.1.1 =
 
