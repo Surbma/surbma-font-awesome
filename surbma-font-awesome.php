@@ -5,7 +5,7 @@ Plugin Name: Surbma - Font Awesome
 Plugin URI: http://surbma.com/wordpress-plugins/
 Description: Font Awesome - The iconic font and CSS toolkit
 
-Version: 2.2.0
+Version: 2.3.0
 
 Author: Surbma
 Author URI: http://surbma.com/
@@ -42,3 +42,7 @@ function surbma_font_awesome_shortcode( $atts ) {
 }
 add_shortcode( 'fa', 'surbma_font_awesome_shortcode' );
 
+global $allowedtags;
+$allowedtags['i'] = array(
+	'class' => array()
+);
