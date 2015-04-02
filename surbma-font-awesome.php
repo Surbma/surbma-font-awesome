@@ -5,7 +5,7 @@ Plugin Name: Surbma - Font Awesome
 Plugin URI: http://surbma.com/wordpress-plugins/
 Description: Font Awesome - The iconic font and CSS toolkit
 
-Version: 2.3.0
+Version: 2.3.1
 
 Author: Surbma
 Author URI: http://surbma.com/
@@ -16,11 +16,16 @@ Text Domain: surbma-font-awesome
 Domain Path: /languages/
 */
 
+// Prevent direct access to the plugin
+if ( !defined( 'ABSPATH' ) ) {
+	die( 'Good try! :)' );
+}
+
 // Localization
 function surbma_font_awesome_init() {
-	load_plugin_textdomain( 'surbma-font-awesome', false, dirname( plugin_basename( __FILE__ ) . '/languages/' ) );
+	load_plugin_textdomain( 'surbma-font-awesome', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 }
-add_action( 'init', 'surbma_font_awesome_init' );
+add_action( 'plugins_loaded', 'surbma_font_awesome_init' );
 
 function surbma_font_awesome_enqueue_scripts() {
 	$handle = 'font-awesome';

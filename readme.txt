@@ -4,7 +4,7 @@ Donate link: http://surbma.com/
 Tags: font awesome, icon font, icons
 Requires at least: 3.0
 Tested up to: 4.1
-Stable tag: 2.3.0
+Stable tag: 2.3.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,6 +38,11 @@ Here you can see them: <a href="http://fortawesome.github.io/Font-Awesome/icons/
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 2.3.1 =
+
+- Fix localization.
+- Prevent direct access to the plugin.
 
 = 2.3.0 =
 
