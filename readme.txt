@@ -1,14 +1,14 @@
 === Surbma - Font Awesome ===
 Contributors: Surbma
 Donate link: http://surbma.com/
-Tags: font awesome, icon font, icons
+Tags: font awesome, fontawesome, icon font, icons
 Requires at least: 3.0
-Tested up to: 4.3
-Stable tag: 2.4.0
+Tested up to: 4.5
+Stable tag: 2.5.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Font Awesome 4.3 - The iconic font and CSS toolkit
+Font Awesome - The iconic font and CSS toolkit
 
 == Description ==
 
@@ -38,6 +38,11 @@ Here you can see them: <a href="http://fortawesome.github.io/Font-Awesome/icons/
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 2.5.0 =
+
+- Tested up to WordPress 4.5 version.
+- Updated to Font Awesome 4.6.3 version.
 
 = 2.4.0 =
 

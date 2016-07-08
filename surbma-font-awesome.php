@@ -5,7 +5,7 @@ Plugin Name: Surbma - Font Awesome
 Plugin URI: http://surbma.com/wordpress-plugins/
 Description: Font Awesome - The iconic font and CSS toolkit
 
-Version: 2.4.0
+Version: 2.5.0
 
 Author: Surbma
 Author URI: http://surbma.com/
@@ -17,13 +17,11 @@ Domain Path: /languages/
 */
 
 // Prevent direct access to the plugin
-if ( !defined( 'ABSPATH' ) ) {
-	die( 'Good try! :)' );
-}
+if ( !defined( 'ABSPATH' ) ) exit( 'Good try! :)' );
 
 // Localization
 function surbma_font_awesome_init() {
-	load_plugin_textdomain( 'surbma-font-awesome', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+	load_plugin_textdomain( 'surbma-font-awesome', false, plugin_basename( dirname( __FILE__ ) ) . '/languages' );
 }
 add_action( 'plugins_loaded', 'surbma_font_awesome_init' );
 
@@ -33,7 +31,7 @@ function surbma_font_awesome_enqueue_scripts() {
 	if ( wp_style_is( $handle, $list ) ) {
 		wp_dequeue_style( $handle );
 	}
-	wp_enqueue_style( 'surbma-font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css', false, '4.4.0' );
+	wp_enqueue_style( 'surbma-font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css', false, '4.6.3' );
 }
 add_action( 'wp_enqueue_scripts', 'surbma_font_awesome_enqueue_scripts', 25 );
 
