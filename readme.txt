@@ -3,8 +3,8 @@ Contributors: Surbma
 Donate link: http://surbma.com/
 Tags: font awesome, fontawesome, icon font, icons
 Requires at least: 3.0
-Tested up to: 4.5
-Stable tag: 2.5.0
+Tested up to: 4.8
+Stable tag: 2.6.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,6 +38,11 @@ Here you can see them: <a href="http://fortawesome.github.io/Font-Awesome/icons/
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 2.6.0 =
+
+- Tested up to WordPress 4.8 version.
+- Updated to Font Awesome 4.7.0 version.
 
 = 2.5.0 =
 
