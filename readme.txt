@@ -1,10 +1,11 @@
-=== Surbma - Font Awesome ===
-Contributors: Surbma
-Donate link: http://surbma.com/
+=== Surbma | Font Awesome ===
+Contributors: Surbma, CherryPickStudios
+Donate link: https://surbma.com/donate/
 Tags: font awesome, fontawesome, icon font, icons
-Requires at least: 3.0
-Tested up to: 4.8
-Stable tag: 2.6.0
+Requires at least: 5.1
+Tested up to: 5.3
+Stable tag: 3.0
+Requires PHP: 7.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,20 +25,27 @@ Font Awesome official site and all the icons: <a href="http://fortawesome.github
 == Installation ==
 
 1. Upload `surbma-font-awesome` folder to the `/wp-content/plugins/` directory
-2. Activate the Surbma - Font Awesome plugin through the 'Plugins' menu in WordPress
+2. Activate the Surbma | Font Awesome plugin through the 'Plugins' menu in WordPress
 3. That's it. :)
 
 == Frequently Asked Questions ==
 
 = Where can I find all the icons? =
 
-Here you can see them: <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">The complete set of icons in Font Awesome »</a>
+Here you can see them: <a href="https://fontawesome.com/v4.7.0/icons/" target="_blank">The complete set of icons in Font Awesome »</a>
 
 = What does Surbma mean? =
 
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 3.0 =
+
+Release date: 2020-02-10
+
+- TWEAK - Tested with WordPress 5.3 version.
+- TWEAK - Updated to use a new way to deploy it to wp.org repo.
 
 = 2.6.0 =
 

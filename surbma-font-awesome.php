@@ -1,14 +1,14 @@
 <?php
 
 /*
-Plugin Name: Surbma - Font Awesome
-Plugin URI: http://surbma.com/wordpress-plugins/
+Plugin Name: Surbma | Font Awesome
+Plugin URI: https://surbma.com/wordpress-plugins/
 Description: Font Awesome - The iconic font and CSS toolkit
 
-Version: 2.6.0
+Version: 3.0
 
 Author: Surbma
-Author URI: http://surbma.com/
+Author URI: https://surbma.com/
 
 License: GPLv2
 
