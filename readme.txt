@@ -3,9 +3,9 @@ Contributors: Surbma, CherryPickStudios
 Donate link: https://surbma.com/donate/
 Tags: font awesome, fontawesome, icon font, icons
 Requires at least: 5.1
-Tested up to: 6.2
-Stable tag: 3.0
-Requires PHP: 7.0
+Tested up to: 6.7
+Stable tag: 3.1
+Requires PHP: 7.4
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,6 +39,22 @@ Here you can see them: <a href="https://fontawesome.com/v4.7.0/icons/" target="_
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 3.1 =
+
+Release date: 2024-12-30
+
+NEW
+
+- Font Awesome files are loaded from local source, instead of CDNJS.
+
+ENHANCEMENTS
+
+- Code optimizations.
+
+FIXES
+
+- Security fixes: shortcode output has escaping now. The Cross-Site Scripting vulnerability was reported by Patchstack.
 
 = 3.0 =
 
